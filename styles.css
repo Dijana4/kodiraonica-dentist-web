@@ -479,3 +479,7 @@ footer {
     padding: 50px;
     font-size: 15px;
 }
+
+div.information > h1 {
+    color: #FA7049;
+}
