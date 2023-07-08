@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.backtotop {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+header {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1000px;
+}
+
+.logo {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+a {
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    height: 600px;
+
+}
+
+.dent1 {
+    background-image: url(assets/dent1.jpg);
+    position: absolute;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 820px 620px;
+    margin-left: 700px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.book {
+    width: 200px;
+    border: 2px solid #FA7049;
+    color: #FA7049;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    background-color: #FA7049;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 9000;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+h6 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.source {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.img1 {
+    background-image: url(dent1.jpg);
+}
+
+.container_row {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: #FA7049;
+    text-align: center;
+    color: white;
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 30px;
+    font-size: 17px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: #FA7049;}
+    to {background-color: rgb(200, 185, 52);}
+}
+
+.sampletext {
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.link {
+    color: white;
+    font-weight: 600;
+}
+
+.container_grid {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.grid2x2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: gray;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.box {
+    flex-basis: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.container_coverphoto {
+    background-image: url('assets/dent2.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+.aboutus {
+    padding-top: 70px;
+    margin-left: 100px;
+
+}
+
+.text_row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.img-dent2 {
+    background-image: url('assets/dent2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container_what {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.box_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    background-color: #FA7049;
+    text-align: left;
+    color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 30px;
+    font-size: 17px;
+}
+
+.border {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 0.3;
+}
+
+.container_qc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    height: 700px;
+}
+
+.dent3 {
+    background-image: url(assets/dent3.jpg);
+    position: absolute;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 820px 620px;
+}
+
+.information_qc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.text_qc {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.container_team {
+    background-color: #FA7049;
+    height: 1650px;
+    align-items: center;
+}
+
+.team {
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.text_team {
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.grid3x2 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 340px 340px auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+    flex-basis: 32.8%;
+    height: 600px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.drbob {
+    background-image: url(assets/drbob.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.drmary {
+    background-image: url(assets/drmary.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.drnick {
+    background-image: url(assets/drnick.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.drmay {
+    background-image: url(assets/drmay.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.drbetty {
+    background-image: url(assets/drbetty.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.dradrian {
+    background-image: url(assets/dradrian.jpg);
+    width: auto;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.drdent {
+    font-size: 17px;
+    color: gray;
+    margin: top;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+ .textdr {
+    font-size: 17px;
+    line-height: 1.5;
+ }
+
+.source_team, .freepik1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container_cosmetic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    height: 600px;
+}
+
+.dent4 {
+    background-image: url(assets/dent4.jpg);
+    position: absolute;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 880px 620px;
+    margin-left: 700px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    height: 700px;
+}
+
+.dent5 {
+    background-image: url(assets/dent5.jpg);
+    position: absolute;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 840px 620px;
+}
+
+.information_qc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 850px;
+    margin-right: 50px;
+}
+
+.text_qc {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.submit {
+    width: 200px;
+    border: 2px solid #FA7049;
+    background-color: #FA7049;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: width 2s;
+}
+
+.submit:hover {
+    width: 400px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    height: 250px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    font-size: 15px;
+}
